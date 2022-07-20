@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #003865 !important;
+    font-family: "Zilla Slab", serif;
+  }
+  
+  .title {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #ff6a23;
+  }
+  .menu {
+    margin-top: 20px;
+  }
+  
+  .buttonDIV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 30vw;
+  }
+  
+  .photo {
+    width: 10vw;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .menu-items {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    background-color: #EF5B0C;
+    border-radius: 10px;
+    padding: 5px;
+    border: 0.25rem solid black;
+  }
+  .menu-info {
+    font-size: 1.5em;
+  }
+
+  .menu-title {
+    font-size: 1.5em;
+  }
+  
+  .menu-text {
+    padding-top: 20px;
+    font-size: 1.1em;
+  }
+
+  .flex {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+  }
+
+  #contentDIV {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
